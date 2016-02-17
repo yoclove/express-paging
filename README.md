@@ -3,6 +3,7 @@ nodejs express分页封装
 
 ##使用
 ```js
+	var paging = require('./paging');
 	paging(mongodbmodel,req,显示数量,cb)
 	//实例
 	paging(db,req,3,function(data){
