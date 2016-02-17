@@ -16,7 +16,7 @@ nodejs express分页封装
 ```
 
 ##html
-```
+```html
 	<% if(page > 1){ %>
 		<a href="/?p=<%- page - 1 %>" class="btn btn-info">上一页</a>
 	<% } %>
